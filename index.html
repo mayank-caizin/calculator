@@ -11,26 +11,31 @@
 <body style="background-color: #F8F8F8;">
     <main>
         <div class="calculator">
-            <input type="text" id="expression">
-            <button class="grey-btn">AC</button>
-            <button class="grey-btn">&#9003;</button>
-            <button class="grey-btn">&#37;</button>
-            <button class="yellow-btn">&#247;</button>
-            <button class="dark-btn">7</button>
-            <button class="dark-btn">8</button>
-            <button class="dark-btn">9</button>
-            <button class="yellow-btn">&#215;</button>
-            <button class="dark-btn">4</button>
-            <button class="dark-btn">5</button>
-            <button class="dark-btn">6</button>
-            <button class="yellow-btn">&#8722;</button>
-            <button class="dark-btn">1</button>
-            <button class="dark-btn">2</button>
-            <button class="dark-btn">3</button>
-            <button class="yellow-btn">&#43;</button>
-            <button class="zero dark-btn">0</button>
-            <button class="dark-btn">.</button>
-            <button class="yellow-btn">&#61;</button>
+            <input type="text" id="expression" disabled>
+            <button id="clearAll" class="grey-btn">AC</button>
+            <button id="clearLast" class="grey-btn">&#9003;</button>
+            <!-- <button class="op grey-btn">&#37;</button> -->
+            <button class="op grey-btn">%</button>
+            <!-- <button class="op yellow-btn">&#247;</button> -->
+            <button class="op yellow-btn">/</button>
+            <button class="op dark-btn">7</button>
+            <button class="op dark-btn">8</button>
+            <button class="op dark-btn">9</button>
+            <!-- <button class="op yellow-btn">&#215;</button> -->
+            <button class="op yellow-btn">*</button>
+            <button class="op dark-btn">4</button>
+            <button class="op dark-btn">5</button>
+            <button class="op dark-btn">6</button>
+            <!-- <button class="op yellow-btn">&#8722;</button> -->
+            <button class="op yellow-btn">-</button>
+            <button class="op dark-btn">1</button>
+            <button class="op dark-btn">2</button>
+            <button class="op dark-btn">3</button>
+            <!-- <button class="op yellow-btn">&#43;</button> -->
+            <button class="op yellow-btn">+</button>
+            <button class="op zero dark-btn">0</button>
+            <button class="op dark-btn">.</button>
+            <button id="equals" class="yellow-btn">&#61;</button>
         </div>
     </main>
     <script src="index.js"></script>
